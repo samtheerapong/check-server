@@ -9,4 +9,11 @@
 
 ##### แก้ไข model/ServerModel.php
 ~~~ php
- $this->db = new PDO("mysql:host=localhost;dbname=ชื่อฐานข้อมูล", "uername", "password");
+ $this->db = new PDO("mysql:host=localhost;dbname=ชื่อฐานข้อมูล", "username_database", "password_database");
+ //ex
+ $this->db = new PDO("mysql:host=localhost;dbname=check-server", "root", "");
+~~~ 
+
+##### นำเข้าฐานข้อมูลจาก folder database/check-server.sql
+
+## เข้าใช้งานผ่าน http://localhost/check-server
