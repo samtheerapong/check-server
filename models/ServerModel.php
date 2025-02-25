@@ -1,4 +1,6 @@
 <?php
+require 'vendor/autoload.php'; // โหลด autoload ของ Composer
+use Dotenv\Dotenv;
 
 class ServerModel
 {
@@ -6,7 +8,18 @@ class ServerModel
 
     public function __construct()
     {
-        $this->db = new PDO("mysql:host=localhost;dbname=it-server", "sam", "sam");
+        // โหลดค่าจากไฟล์ .env
+        $dotenv = Dotenv::createImmutable(__DIR__ . '/..'); // .env
+        $dotenv->load();
+
+        // อ่านค่าจาก .env
+        $host = $_ENV['DB_HOST'];
+        $dbname = $_ENV['DB_NAME'];
+        $user = $_ENV['DB_USER'];
+        $pass = $_ENV['DB_PASS'];
+
+        // เชื่อมต่อฐานข้อมูล
+        $this->db = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
         $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
