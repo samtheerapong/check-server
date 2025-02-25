@@ -61,7 +61,7 @@
             <p class="text-red-600 py-2">* The system will check every 1 minute.</p>
             <div class="flex space-x-2">
 
-                <a href="#" target="_blank" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Copyright @samTheerapong</a>
+                <a href="https://github.com/samtheerapong/check-server" target="_blank" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Copyright @samTheerapong</a>
             </div>
         </div>
 
