@@ -1,6 +1,6 @@
 # โปรแกรมนี้นำไปใช้งานได้ฟรี
 ###### โปรดให้เครดิตผมด้วยครับ
-
+![alt text](https://github.com/samtheerapong/check-server/blob/master/assets/images/check-server.png)
 ## แนะนำโปรแกรม จำลอง server
 #### Lalagon 6 ฟรี สำหรับ Windows (Version 7 เหมือนจะไม่ฟรีแล้วนะครับ)
 #### https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe
