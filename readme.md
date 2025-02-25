@@ -7,13 +7,15 @@
 #### https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe
 #### หรือจะใช้ xampp หรืออื่นๆก็ได้ครับ
 
-##### แก้ไข model/ServerModel.php
+##### สร้างฐานข้อมูล check-server นำเข้าฐานข้อมูลจาก folder database/check-server.sql
+##### เปลี่ยนชื่อไฟล์ .env-example เป็น .env
+###### แล้วเปลี่ยนค่าให้ตรงกับฐานข้อมูลที่ใช้งาน เช่น
 ~~~ php
- $this->db = new PDO("mysql:host=localhost;dbname=ชื่อฐานข้อมูล", "username_database", "password_database");
- //ex
- $this->db = new PDO("mysql:host=localhost;dbname=check-server", "root", "");
+DB_HOST=localhost
+DB_NAME=check-server
+DB_USER=root
+DB_PASS=
 ~~~ 
 
-##### นำเข้าฐานข้อมูลจาก folder database/check-server.sql
 
 ## เข้าใช้งานผ่าน http://localhost/check-server
