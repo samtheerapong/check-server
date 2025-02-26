@@ -14,7 +14,8 @@
 ##### เลือกไปที่ laragon\bin\php\php-เวอร์ชั่น
 
 ~~~ bash
-composer update
+cmd -> ที่อยู่ Project : composer update
+จะได้ folder vendor ที่โหลด package มา
 ~~~
 
 ### สร้างฐานข้อมูล check-server นำเข้าฐานข้อมูลจาก folder database/check-server.sql
