@@ -4,7 +4,14 @@
 ## แนะนำโปรแกรม จำลอง server
 #### Lalagon 6 ฟรี สำหรับ Windows (Version 7 เหมือนจะไม่ฟรีแล้วนะครับ)
 #### https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe
+#### https://windows.php.net/downloads/releases/php-7.4.33-Win32-vc15-x64.zip
+#### แตกไฟล์ เอาไปไว้ที่ Path laragon\bin\php\php-7.4.33-Win32-vc15-x64
+
 ###### หรือจะใช้ xampp หรืออื่นๆก็ได้ครับ
+
+### ติดตั้ง composer
+##### https://getcomposer.org/
+##### เลือกไปที่ laragon\bin\php\php-7.4.33-Win32-vc15-x64
 
 ### สร้างฐานข้อมูล check-server นำเข้าฐานข้อมูลจาก folder database/check-server.sql
 ##### เปลี่ยนชื่อไฟล์ .env-example เป็น .env
@@ -18,8 +25,6 @@ DB_PASS=
 ADMIN_PASS=admin
 ~~~ 
 
-### ติดตั้ง composer
-##### https://getcomposer.org/
 ~~~ bash
 composer update
 ~~~
