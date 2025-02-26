@@ -19,6 +19,16 @@ class ServerController {
         require_once 'views/server_list.php';
     }
 
+    public function admin() {
+        $servers = $this->model->getAllServers();
+        foreach ($servers as $server) {
+            $status = $this->model->checkServerStatus($server['ip_address'], $server['port']);
+            $this->model->updateStatus($server['id'], $status);
+        }
+        $servers = $this->model->getAllServers();
+        require_once 'views/admin_list.php';
+    }
+
     public function create() {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $this->model->addServer($_POST['name'], $_POST['ip'], $_POST['port']);

@@ -12,6 +12,8 @@ $uri = explode('/', trim($uri, '/'));
 
 if (empty($uri[0])) {
     $controller->index();
+} elseif ($uri[0] === 'admin') {
+    $controller->admin();
 } elseif ($uri[0] === 'create') {
     $controller->create();
 } elseif ($uri[0] === 'edit' && isset($uri[1])) {
