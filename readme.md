@@ -13,10 +13,11 @@
 ##### https://getcomposer.org/
 ##### เลือกไปที่ laragon\bin\php\php-เวอร์ชั่น
 
+###### cmd -> ที่อยู่ Project
 ~~~ bash
-cmd -> ที่อยู่ Project : composer update
-จะได้ folder vendor ที่โหลด package มา
+composer update
 ~~~
+###### จะได้ folder vendor ที่โหลด package มา
 
 ### สร้างฐานข้อมูล check-server นำเข้าฐานข้อมูลจาก folder database/check-server.sql
 ##### เปลี่ยนชื่อไฟล์ .env-example เป็น .env
