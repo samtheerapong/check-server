@@ -11,7 +11,7 @@
 
 ### ติดตั้ง composer
 ##### https://getcomposer.org/
-##### เลือกไปที่ laragon\bin\php\php-เวอร์ชั่น
+##### เลือกไปที่ laragon\bin\php\php-เวอร์ชั่น หรือ floder ที่เก็บโปรแกรม php
 
 ###### cmd -> ที่อยู่ Project
 ~~~ bash
