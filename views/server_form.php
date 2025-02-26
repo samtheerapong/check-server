@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($server) ? 'Edit Server' : 'Add Server'; ?></title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="./src/output.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-100 min-h-screen p-6">
     <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-bold text-gray-800 mb-6"><?php echo isset($server) ? 'Edit Server' : 'Add Server'; ?></h2>
@@ -29,4 +32,5 @@
         </form>
     </div>
 </body>
+
 </html>

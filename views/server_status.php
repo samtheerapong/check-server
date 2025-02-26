@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Server Status</title>
     <!-- เรียกใช้ Tailwind CSS ผ่าน CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="./src/output.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100 min-h-screen p-6">

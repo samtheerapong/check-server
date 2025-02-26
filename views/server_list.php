@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Server Status</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="./src/output.css" rel="stylesheet">
     <!-- เพิ่ม SweetAlert2 จาก CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
@@ -57,7 +58,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="flex justify-between items-center mb-6">
+        <div class="flex justify-between items-center mb-12">
             <p class="text-red-600 py-2">* The system will check every 1 minute.</p>
         </div>
 
