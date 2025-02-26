@@ -281,12 +281,7 @@
             location.reload(); // รีเฟรชหน้าเว็บ
         });
     </script>
-    <script>
-        // Refresh the page every 60 seconds (1 minute)
-        setTimeout(function() {
-            location.reload();
-        }, 60000); // 60000 milliseconds = 60 seconds
-    </script>
+   
 </body>
 
 </html>
