@@ -11,7 +11,11 @@
 
 ### ติดตั้ง composer
 ##### https://getcomposer.org/
-##### เลือกไปที่ laragon\bin\php\php-7.4.33-Win32-vc15-x64
+##### เลือกไปที่ laragon\bin\php\php-เวอร์ชั่น
+
+~~~ bash
+composer update
+~~~
 
 ### สร้างฐานข้อมูล check-server นำเข้าฐานข้อมูลจาก folder database/check-server.sql
 ##### เปลี่ยนชื่อไฟล์ .env-example เป็น .env
@@ -25,8 +29,6 @@ DB_PASS=
 ADMIN_PASS=admin
 ~~~ 
 
-~~~ bash
-composer update
-~~~
+
 
 ## เข้าใช้งานผ่าน http://localhost/check-server
