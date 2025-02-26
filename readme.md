@@ -14,6 +14,8 @@ DB_HOST=localhost
 DB_NAME=check-server
 DB_USER=root
 DB_PASS=
+
+ADMIN_PASS=admin
 ~~~ 
 
 
