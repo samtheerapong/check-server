@@ -18,5 +18,10 @@ DB_PASS=
 ADMIN_PASS=admin
 ~~~ 
 
+### ติดตั้ง composer
+##### https://getcomposer.org/
+~~~ bash
+composer update
+~~~
 
 ## เข้าใช้งานผ่าน http://localhost/check-server
