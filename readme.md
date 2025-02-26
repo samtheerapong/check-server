@@ -7,7 +7,7 @@
 <!-- #### https://windows.php.net/downloads/releases/php-7.4.33-Win32-vc15-x64.zip
 #### แตกไฟล์ เอาไปไว้ที่ Path laragon\bin\php\php-7.4.33-Win32-vc15-x64 -->
 
-###### หรือจะใช้ xampp หรืออื่นๆก็ได้ครับ
+###### หรือจะใช้ xampp หรือ docker https://github.com/sprintcube/docker-compose-lamp หรือตัวจำลองอื่นๆก็ได้ครับ
 
 ### ติดตั้ง composer
 ##### https://getcomposer.org/
